@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background-color: darkgrey;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 4%;
+  }
+  
+  .goto{
+    width: 100px;
+    text-decoration: none;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    line-height: 2.5;
+  }
+
+  .goto:hover.{
+    transform: translateY(-10px);
+  }
+
+  .h1title{
+  display: flex;
+  align-self: center;
+  }
+  
+  .h2footer{
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+    background: lightgray;
+    color: #fff;
+  }
+  
+  li{
+    text-decoration: none;
+    display:inline;
+    margin-left: 70px;
+    border: 5px;
+  }
+  
+  .content{
+    display: flex;
+    flex-flow: column wrap;
+    float: right;
+    width: 75%;
+  }
+  
+  .p1{
+    background-color: antiquewhite;
+    padding: 1%;
+    margin-top: 40px;
+    margin-right: 10px;
+    line-height: 200%;
+    grid-column: 1/3;
+  }
+  
+  aside{
+    display: flex;
+    float: left;
+    width: 20%;
+    height: 101vh;
+    margin-left: 5px;
+    background-color: rgba(0, 142, 193, 0.857);
+    border-style: ridge;
+    box-shadow: 10px 10px 5px rgba(31, 31, 31, 0.768);
+  }
+  
+  aside img{
+    align-self: start;
+    margin-left: 6%;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .mywork{
+    align-self: flex-start;
+    font-size: 48px;
+  }
+
+  #aboutme{
+    font-size: 48px;
+    writing-mode: vertical-lr;
+  }
+  
+  .profilepic{
+    height: 270px;
+    margin-top: 8%;
+    align-self: flex-start;
+    border-style: solid;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+    transition: all 300ms ease-in-out;
+    transform: rotate(-5deg);
+    
+  }
+  .profilepic:hover{
+    box-shadow: 5px 5px 5px rgb(51, 51, 51, 0.125);
+    transform: rotate(0deg) scale(1.1);
+  }
+
+  .atitles{
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 1%;
+  }
+
+  .pdescription{
+    color: whitesmoke;
+    font-weight: 400;
+    margin: 1%;
+  }
+
+  #grid {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+}
+
+  .seorefactor{
+    display: flex;
+    margin: 1% 10px;
+    background-image: url("../images/seo-refactor.jpg");
+    background-size: contain;
+    grid-column: 1/3;
+    opacity: 75%;
+  }
+
+  .seorefactor:hover{
+    opacity: 100%;
+  }
+  
+  .prework{
+    display: flex;
+    margin: 1% 10px;
+    background-image: url("../images/prework.jpg");
+    background-size: contain;
+    opacity: 75%;
+  }
+
+  .prework:hover{
+    opacity: 100%;
+  }
+
+  .javascript{
+    display: flex;
+    margin: 1% 10px;
+    background-image: url("../images/coming-soon.png");
+    background-size: contain;
+    opacity: 75%;
+  }
+
+  .javascript:hover{
+    opacity: 100%;
+  }
+
+  .apis{
+    display: flex;
+    grid-column: 1/3;
+    margin: 1% 10px;
+    background-image: url("../images/coming-soon.png");
+    background-size: contain;
+    opacity: 75%;
+  }
+
+  .apis:hover{
+    opacity: 100%;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 9vh;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.footerul {
+  text-align: right;
+}
