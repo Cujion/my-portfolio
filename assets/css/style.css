@@ -73,10 +73,10 @@
   
   aside{
     display: flex;
-    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 20%;
     height: 101vh;
-    margin-left: 5px;
     background-color: rgba(0, 142, 193, 0.857);
     border-style: ridge;
     box-shadow: 10px 10px 5px rgba(31, 31, 31, 0.768);
@@ -89,14 +89,19 @@
     border-color: rgb(0, 0, 0);
   }
   
-  .mywork{
+  .aboutme{
     align-self: flex-start;
-    font-size: 48px;
-  }
-
-  #aboutme{
+    margin-left: 15%;
+    margin-top: 5%;
     font-size: 48px;
     writing-mode: vertical-lr;
+  }
+
+  .mywork{
+    align-self: center;
+    font-size: 48px;
+    margin-left: 30%;
+    margin-bottom: 150%;
   }
   
   .profilepic{
@@ -135,7 +140,7 @@
 }
 
   .seorefactor{
-    display: flex;
+    text-decoration: none;
     margin: 1% 10px;
     background-image: url("../images/seo-refactor.jpg");
     background-size: contain;
@@ -148,7 +153,7 @@
   }
   
   .prework{
-    display: flex;
+    text-decoration: none;
     margin: 1% 10px;
     background-image: url("../images/prework.jpg");
     background-size: contain;
@@ -160,7 +165,6 @@
   }
 
   .javascript{
-    display: flex;
     margin: 1% 10px;
     background-image: url("../images/coming-soon.png");
     background-size: contain;
@@ -172,7 +176,6 @@
   }
 
   .apis{
-    display: flex;
     grid-column: 1/3;
     margin: 1% 10px;
     background-image: url("../images/coming-soon.png");
