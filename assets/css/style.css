@@ -6,15 +6,22 @@
   
   body {
     font-family: Arial;
-    background-color: darkgrey;
+  }
+
+  .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: whitesmoke;
   }
   
   .main-header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 2%;
-    padding-right: 4%;
+    background-color: darkcyan;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
   }
   
   .goto{
@@ -30,23 +37,6 @@
   .goto:hover.{
     transform: translateY(-10px);
   }
-
-  .h1title{
-  display: flex;
-  align-self: center;
-  }
-  
-  .h2footer{
-    text-align: left;
-    margin-left: 10px;
-  }
-  
-  header {
-    padding: 20px;
-    text-align: center;
-    background: lightgray;
-    color: #fff;
-  }
   
   li{
     text-decoration: none;
@@ -59,56 +49,35 @@
     display: flex;
     flex-flow: column wrap;
     float: right;
-    width: 75%;
+    width: 100%;
   }
   
   .p1{
     background-color: antiquewhite;
     padding: 1%;
-    margin-top: 40px;
+    width: 75%;
+    float: right;
     margin-right: 10px;
     line-height: 200%;
-    grid-column: 1/3;
-  }
-  
-  aside{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 20%;
-    height: 101vh;
-    background-color: rgba(0, 142, 193, 0.857);
-    border-style: ridge;
-    box-shadow: 10px 10px 5px rgba(31, 31, 31, 0.768);
-  }
-  
-  aside img{
-    align-self: start;
-    margin-left: 6%;
-    border-radius: 10px;
-    border-color: rgb(0, 0, 0);
   }
   
   .aboutme{
-    align-self: flex-start;
-    margin-left: 15%;
-    margin-top: 5%;
+    text-align: center;
     font-size: 48px;
-    writing-mode: vertical-lr;
   }
-
+  
   .mywork{
-    align-self: center;
+    text-align: center;
     font-size: 48px;
-    margin-left: 30%;
-    margin-bottom: 150%;
   }
   
   .profilepic{
     height: 270px;
-    margin-top: 8%;
-    align-self: flex-start;
+    float: left;
+    margin-top: 20px;
+    margin-left: 1%;
     border-style: solid;
+    border-radius: 10px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
     transition: all 300ms ease-in-out;
     transform: rotate(-5deg);
@@ -118,71 +87,75 @@
     box-shadow: 5px 5px 5px rgb(51, 51, 51, 0.125);
     transform: rotate(0deg) scale(1.1);
   }
-
+  
   .atitles{
     color: whitesmoke;
     font-weight: 500;
-    margin: 1%;
   }
-
+  
   .pdescription{
     color: whitesmoke;
     font-weight: 400;
-    margin: 1%;
   }
-
+  
   #grid {
-    width: 75%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 5px;
-}
-
+  }
+  
   .seorefactor{
     text-decoration: none;
     margin: 1% 10px;
+    height: 250px;
     background-image: url("../images/seo-refactor.jpg");
-    background-size: contain;
+    background-size: cover;
     grid-column: 1/3;
     opacity: 75%;
   }
-
+  
   .seorefactor:hover{
     opacity: 100%;
   }
   
   .prework{
     text-decoration: none;
-    margin: 1% 10px;
+    margin: 1% 10px 1% 10px;
+    height: 250px;
     background-image: url("../images/prework.jpg");
-    background-size: contain;
+    background-size: cover;
     opacity: 75%;
+    grid-column: 1/3;
   }
-
+  
   .prework:hover{
     opacity: 100%;
   }
-
+  
   .javascript{
-    margin: 1% 10px;
+    margin: 1% 10px 1% 10px;
+    height: 250px;
     background-image: url("../images/coming-soon.png");
-    background-size: contain;
+    background-size: cover;
     opacity: 75%;
+    grid-column: 1/3;
   }
-
+  
   .javascript:hover{
     opacity: 100%;
   }
-
+  
   .apis{
     grid-column: 1/3;
-    margin: 1% 10px;
+    margin: 1% 10px 2% 10px;
     background-image: url("../images/coming-soon.png");
-    background-size: contain;
+    background-size: cover;
     opacity: 75%;
+    grid-column: 1/3;
   }
-
+  
   .apis:hover{
     opacity: 100%;
   }
@@ -191,13 +164,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 9vh;
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: lightblue;
-}
-
-.footerul {
-  text-align: right;
-}
+  }
+  
+  .footerul {
+    text-align: right;
+  }
+  
+  .h2footer{
+    text-align: left;
+    margin-left: 10px;
+  }
