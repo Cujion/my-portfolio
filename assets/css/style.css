@@ -1,0 +1,33 @@
+body{
+  background-color:rgb(216, 209, 209)smoke ;
+}
+
+.wrapper{
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: rgb(246, 246, 246);
+}
+
+.wrapper > header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(180, 96, 0);
+  color: white;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+button{
+  background-color: black;
+}
+
+section{
+  padding: 20px;
+  font-size: 28px;
+  line-height: 48px;
+}
