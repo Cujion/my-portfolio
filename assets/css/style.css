@@ -43,7 +43,25 @@ nav a{
 }
 
 button{
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
   background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 10px 5px rgb(255, 167, 67);
+}
+
+.button:hover {
+  background-color: rgb(237, 189, 152);
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 section{
@@ -86,6 +104,7 @@ article{
   width: 50%;
   padding: 20px;
   opacity: 75%;
+  box-shadow: 0 0 20px rgb(255, 167, 67);
 }
 
 article a{
@@ -105,6 +124,7 @@ article img{
 .featured{
   width: 100%;
   opacity: 75%;
+  box-shadow: 0 0 10px rgb(255, 167, 67);
 }
 
 .featured:hover{
