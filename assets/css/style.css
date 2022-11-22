@@ -80,11 +80,15 @@ section{
 .aboutdetails p{
   background-color: rgb(237, 189, 152);
   border-radius: 15px;
+  padding: 12px;
+  text-align: justify;
+
 }
 
 .aboutdetails img{
-  margin-right: 16px;
-  margin-bottom: 16px;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 8px;
   height: 300px;
   border-style: solid;
   border-color: rgb(229, 121, 59);
@@ -92,9 +96,15 @@ section{
 }
 /* styling for my portfolio article section */
 
+#mywork{
+margin: 0 20px;
+height: 40px;
+}
+
 .mywork{
   display: flex;
   flex-wrap: wrap;
+  align-content: stretch;
 }
 
 article{
@@ -175,7 +185,7 @@ footer a{
   }
 
   nav a:first-of-type{
-    margin-left: 0;
+    align-items: center;
   }
 
   .aboutdetails{
@@ -195,6 +205,23 @@ footer a{
     display: flex;
     flex-direction: column;
   }
+}
 
+@media screen  and (max-width: 576px){
+  .aboutdetails img{
+    width: 100%;
+  }
 
+  .button{
+    margin: 6px;
+    align-items: center;
+  }
+
+  .button:active{
+    margin: 6px;
+  }
+}
+
+h1{
+  text-align: center;
 }
