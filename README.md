@@ -1,4 +1,4 @@
-# my-portfolio
+# My-Portfolio
 
 [Link to my project](https://github.com/Cujion/my-portfolio)
 
