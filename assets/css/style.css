@@ -23,6 +23,7 @@ h3{
   border-radius: 15px;
   margin-bottom: 20px;
 }
+
 .wrapper{
   max-width: 1140px;
   margin: 0 auto;
@@ -43,7 +44,7 @@ nav a{
   text-decoration: none;
   margin: 10px;
 }
-
+/* styling for all buttons on webpage */
 button{
   font-size: 24px;
   text-align: center;
@@ -71,7 +72,7 @@ section{
   font-size: 28px;
   line-height: 48px;
 }
-
+/* styling for about me */
 .aboutdetails{
   display: flex;
   align-items: flex-start;
@@ -80,7 +81,6 @@ section{
 .aboutdetails p{
   background-color: rgb(237, 189, 152);
   border-radius: 15px;
-  order: -1;
 }
 
 .aboutdetails img{
@@ -91,10 +91,7 @@ section{
   border-color: rgb(229, 121, 59);
   border-radius: 10px;
 }
-
-.img2{
-}
-
+/* styling for my portfolio article section */
 #mywork{
   display: flex;
   flex-flow: column wrap;
@@ -113,11 +110,11 @@ article a{
   text-decoration: none;
   color: black;
 }
-
+/* added feature to fade full opacity on hover */
 article:hover{
   opacity: 100%;
 }
-
+/* image sizing */
 article img{
   width: 100%;
   height: 300px;
@@ -132,11 +129,7 @@ article img{
 .featured:hover{
   opacity: 100%;
 }
-
-.workimg{
-  opacity: 5%;
-}
-
+/* styling for footer element */
 footer{
   display: flex;
   justify-content: space-between;
@@ -155,7 +148,7 @@ footer a{
   text-decoration: none;
   margin: 10px;
 }
-
+/* media query for optimized screen sizes and readability */
 @media screen  and (max-width: 768px){
 
   body, p {
