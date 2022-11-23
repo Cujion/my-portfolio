@@ -33,7 +33,7 @@ h3{
 .wrapper > header{
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   background-color: rgb(180, 96, 0);
   color: white;
   border-radius: 0 0 15px 15px;
@@ -44,16 +44,15 @@ nav a{
   text-decoration: none;
   margin: 10px;
 }
+
 /* styling for all buttons on webpage */
 button{
   margin: 10px;
   font-size: 24px;
-  text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
   background-color: black;
-  border: none;
   border-radius: 15px;
   box-shadow: 5px 10px 5px rgb(255, 167, 67);
 }
@@ -73,11 +72,8 @@ section{
   font-size: 28px;
   line-height: 52px;
 }
-/* styling for about me */
-.aboutdetails{
-  display: flex;
-}
 
+/* styling for about me */
 .aboutdetails p{
   background-color: rgb(237, 189, 152);
   border-radius: 15px;
@@ -89,8 +85,7 @@ section{
 
 .aboutdetails img{
   float: left;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin-right: 10px;
   width: 200px;
   border-style: solid;
   border-color: rgb(229, 121, 59);
@@ -113,7 +108,6 @@ article{
   padding: 20px;
   margin-bottom: 2%;
   opacity: 75%;
-  box-shadow: 0 0 20px rgb(255, 167, 67);
 }
 
 article a{
@@ -123,6 +117,7 @@ article a{
 /* added feature to fade full opacity on hover */
 article:hover{
   opacity: 100%;
+  box-shadow: 0 0 20px rgb(255, 167, 67);
 }
 /* image sizing */
 article img{
@@ -132,11 +127,11 @@ article img{
 .featured{
   width: 100%;
   opacity: 75%;
-  box-shadow: 0 0 10px rgb(255, 167, 67);
 }
 
 .featured:hover{
   opacity: 100%;
+  box-shadow: 0 0 10px rgb(255, 167, 67);
 }
 /* styling for footer element */
 footer{
@@ -177,9 +172,8 @@ footer a{
 
   ul{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
   }
 
   header{
@@ -187,8 +181,8 @@ footer a{
     flex-direction: column;
   }
 
-  nav a:first-of-type{
-    align-items: center;
+  .button{
+    flex-direction: column;
   }
 
   .aboutdetails{
@@ -222,7 +216,7 @@ footer a{
   }
 
   h3{
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .button{
@@ -249,7 +243,7 @@ footer a{
 
   ul{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
