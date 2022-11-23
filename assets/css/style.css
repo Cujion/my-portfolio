@@ -46,6 +46,7 @@ nav a{
 }
 /* styling for all buttons on webpage */
 button{
+  margin: 10px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
@@ -70,7 +71,7 @@ button{
 section{
   padding: 20px;
   font-size: 28px;
-  line-height: 48px;
+  line-height: 52px;
 }
 /* styling for about me */
 .aboutdetails{
@@ -82,6 +83,7 @@ section{
   border-radius: 15px;
   padding: 12px;
   text-align: justify;
+  line-height: 40px;
 
 }
 
@@ -98,7 +100,7 @@ section{
 
 #mywork{
 margin: 0 20px;
-height: 40px;
+line-height: 52px;
 }
 
 .mywork{
@@ -163,20 +165,25 @@ footer a{
 @media screen  and (max-width: 768px){
 
   body, p {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 16px;
   }
 
   h1{
     font-size: 28px;
+    line-height: 32px;
+    text-align: center;
   }
 
   h2{
     font-size: 26px;
   }
 
-  h3{
-    font-size: 24px;
+  ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   header{
@@ -193,6 +200,11 @@ footer a{
     align-items: center;
   }
 
+  .aboutdetails p{
+    line-height: 28px;
+  }
+
+
   #work{
     flex-direction: column;
   }
@@ -208,20 +220,40 @@ footer a{
 }
 
 @media screen  and (max-width: 576px){
+  
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+  
   .aboutdetails img{
     width: 100%;
   }
 
+  .aboutdetails p{
+    line-height: 28px;
+  }
+
   .button{
-    margin: 6px;
+    margin: 8px;
     align-items: center;
   }
 
   .button:active{
     margin: 6px;
   }
-}
 
-h1{
-  text-align: center;
+  article img{
+    width: 100%;
+    height: 150px;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
