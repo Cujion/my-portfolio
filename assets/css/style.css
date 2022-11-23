@@ -156,20 +156,27 @@ footer a{
 /* media query for optimized screen sizes and readability */
 @media screen  and (max-width: 768px){
 
-  body, p {
-    font-size: 18px;
+  body{
     line-height: 16px;
   }
 
   h1{
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 36px;
+    line-height: 38px;
     text-align: center;
     margin-bottom: 5px;
   }
 
   h2{
-    font-size: 26px;
+    font-size: 32px;
+  }
+
+  h3{
+    font-size: 28px;
+  }
+
+  .wrapper > header{
+    padding: 5px 5px 0 5px;
   }
 
   ul{
@@ -195,7 +202,8 @@ footer a{
   }
 
   .aboutdetails p{
-    line-height: 28px;
+    line-height: 29px;
+    font-size: 18px;
   }
 
   #work article img{
@@ -204,6 +212,7 @@ footer a{
 
   footer{
     flex-direction: column;
+    padding: 15px 0 0 0;
   }
 
   footer > h3{
@@ -218,7 +227,7 @@ footer a{
   }
 
   h3{
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .button{
@@ -231,6 +240,7 @@ footer a{
   
   .aboutdetails img{
     width: 100%;
+    margin-bottom: 5px;
   }
 
   .aboutdetails p{
