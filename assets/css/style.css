@@ -33,7 +33,7 @@ h3{
 .wrapper > header{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   background-color: rgb(180, 96, 0);
   color: white;
   border-radius: 0 0 15px 15px;
@@ -47,7 +47,7 @@ nav a{
 
 /* styling for all buttons on webpage */
 button{
-  margin: 10px;
+  margin-left: 10px;
   font-size: 24px;
   cursor: pointer;
   outline: none;
@@ -105,7 +105,7 @@ line-height: 52px;
 
 article{
   width: 50%;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 2%;
   opacity: 75%;
 }
@@ -131,13 +131,13 @@ article img{
 
 .featured:hover{
   opacity: 100%;
-  box-shadow: 0 0 10px rgb(255, 167, 67);
+  box-shadow: 0 0 20px rgb(255, 167, 67);
 }
 /* styling for footer element */
 footer{
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   background-color: rgb(180, 96, 0);
   color: white;
   border-radius: 15px 15px 0 0 ;
@@ -145,6 +145,7 @@ footer{
 
 footer > h3{
 font-size: 36px;
+margin-bottom: 0;
 }
 
 footer a{
@@ -164,6 +165,7 @@ footer a{
     font-size: 28px;
     line-height: 32px;
     text-align: center;
+    margin-bottom: 5px;
   }
 
   h2{
@@ -183,6 +185,8 @@ footer a{
 
   .button{
     flex-direction: column;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
 
   .aboutdetails{
@@ -194,19 +198,17 @@ footer a{
     line-height: 28px;
   }
 
-
-  #work{
-    flex-direction: column;
-  }
-
   #work article img{
     width: 100%;
   }
 
   footer{
-    display: flex;
     flex-direction: column;
   }
+
+  footer > h3{
+    margin-bottom: 15px;
+    }
 }
 
 @media screen  and (max-width: 576px){
@@ -220,12 +222,11 @@ footer a{
   }
 
   .button{
-    margin: 8px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 15px;
     align-items: center;
-  }
-
-  .button:active{
-    margin: 6px;
+    box-shadow: 2px 5px 2px rgb(255, 167, 67);
   }
   
   .aboutdetails img{
@@ -241,9 +242,7 @@ footer a{
     height: 150px;
   }
 
-  ul{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  footer button{
+    margin-bottom: 10px;
   }
 }
