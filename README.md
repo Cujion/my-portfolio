@@ -1,6 +1,6 @@
 # My-Portfolio
 
-[Link to my project](https://github.com/Cujion/my-portfolio)
+[Link to my project](https://cujion.github.io/my-portfolio/)
 
 ## Table of Contents
 - [Description](#description)
