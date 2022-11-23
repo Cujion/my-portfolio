@@ -91,7 +91,7 @@ section{
   float: left;
   margin-right: 8px;
   margin-bottom: 8px;
-  height: 300px;
+  width: 200px;
   border-style: solid;
   border-color: rgb(229, 121, 59);
   border-radius: 10px;
@@ -106,12 +106,9 @@ line-height: 52px;
 .mywork{
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
 }
 
 article{
-  display: flex;
-  flex-direction: column;
   width: 50%;
   padding: 20px;
   margin-bottom: 2%;
@@ -130,7 +127,6 @@ article:hover{
 /* image sizing */
 article img{
   width: 100%;
-  height: 300px;
 }
 
 .featured{
@@ -228,14 +224,6 @@ footer a{
   h3{
     font-size: 24px;
   }
-  
-  .aboutdetails img{
-    width: 100%;
-  }
-
-  .aboutdetails p{
-    line-height: 28px;
-  }
 
   .button{
     margin: 8px;
@@ -244,6 +232,14 @@ footer a{
 
   .button:active{
     margin: 6px;
+  }
+  
+  .aboutdetails img{
+    width: 100%;
+  }
+
+  .aboutdetails p{
+    line-height: 28px;
   }
 
   article img{
